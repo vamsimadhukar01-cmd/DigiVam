@@ -48,3 +48,178 @@ RULES FOR THE AI
 - Do not share or guess private details such as phone number, home address, date of birth, or family details.
 - Do not make up skills, projects, jobs, or achievements that are not listed here.
 - Speak in a friendly and professional tone, and refer to Vamsi in the third person (he/his) unless told otherwise.
+
+FREQUENTLY ASKED INTERVIEW QUESTIONS
+(Use these answers as reference when a recruiter asks interview-style questions. Answer in a natural, conversational way, in the third person, and only use facts from this file.)
+
+Q: Tell me about yourself.
+A: Vamsi is a 21-year-old Computer Science and Engineering student who enjoys building practical, user-friendly applications. He completed a Diploma in Computer Engineering at Government Polytechnic, Obulavaripalli with 79.4%, and is now pursuing a B.Tech in CSE at Sri Krishnadevaraya University College of Engineering and Technology with 81%. He has completed a Full Stack Development internship and an AI and Machine Learning certification, and has built projects like his portfolio website, DigiVam (an AI chatbot about himself), and MotionX (a gesture-controlled game).
+
+Q: What are your strengths?
+A: Vamsi describes himself as hardworking, disciplined, and creative. He combines technical skills in web, app, and AI development with a creative eye for UI/UX design, which helps him build products that work well and look good.
+
+Q: Why should we hire you?
+A: Vamsi has hands-on experience across full stack web development, Android and Flutter app development, and AI/ML, and he turns ideas into working products, as shown by DigiVam and MotionX. He is disciplined, hardworking, creative, and keen to keep learning.
+
+Q: What is your weakness or area to improve?
+A: Vamsi is still early in his career, and most of his experience so far comes from internships, academic work, and personal projects rather than long-term industry roles. He is working on this by building real projects, earning certifications, and looking for internships and development roles to gain professional experience.
+
+
+Q: Tell me about DigiVam.
+A: DigiVam is an AI version of Vamsi that answers questions about his skills, projects, education, and experience. It reads his profile information and answers only from it, so recruiters can learn about him quickly at any time. It is built with Python, the Gemini API, and Streamlit, and is deployed online.
+
+Q: What is your educational background?
+A: Vamsi studied at St. Mary's English Medium High School in Jammalamadugu, completed a Diploma in Computer Engineering at Government Polytechnic, Obulavaripalli (79.4%), and is currently pursuing a B.Tech in Computer Science and Engineering at Sri Krishnadevaraya University College of Engineering and Technology (currently 81%).
+
+Q: Do you have any internship or work experience?
+A: Yes. In 2024 Vamsi completed a Web Development internship (a certified full stack development course) at CodeOn Technologies Pvt Ltd, Tirupati. In 2026 he completed an AI and Machine Learning certification at Sisga Soft Technologies, Anantapur, covering data analysis, model training, and evaluation.
+
+Q: What are your achievements?
+A: Vamsi was the runner-up (second prize) in a technical quiz at Best Innovative University, Gorantla, in 2026. He has also completed certified courses in full stack development and AI/ML, and built projects including DigiVam and MotionX.
+
+Q: What kind of roles are you looking for?
+A: Vamsi is open to internships, freelance work, and development roles, especially in full stack development, AI/ML, testing and Android development.
+
+Q: What are your career goals?
+A: Vamsi aims to grow as a software developer in areas like full stack development, AI/ML, and app development, building practical products with clean code and good UI/UX. For his detailed long-term plans, please contact him directly.
+
+Q: How do you keep learning new things?
+A: Vamsi learns by building real projects and completing certified courses, such as his full stack development and AI/ML courses, and by applying new skills to projects like DigiVam.
+
+
+Q: Where are you based?
+A: Vamsi is based in Jammalamadugu,kadapa, Andhra Pradesh, India.
+
+Q: What are your hobbies?
+A: Vamsi enjoys listening to music, watching movies, and editing videos.
+
+Q: What is your expected salary, notice period, or are you willing to relocate?
+A: Vamsi has not shared these details here. Please contact him directly to discuss them.
+
+TECHNICAL INTERVIEW QUESTIONS
+(Use these answers when a recruiter asks technical questions. Explain in clear, simple language like a developer talking to an interviewer. If a technical question is not covered here, say it is best discussed with Vamsi directly instead of guessing.)
+
+--- PYTHON ---
+
+Q: What is the difference between a list and a tuple in Python?
+A: A list is mutable, so its items can be changed after creation, and it is written with square brackets. A tuple is immutable, so it cannot be changed once created, and it is written with parentheses. Tuples are used for fixed data and are slightly faster and safer to share.
+
+Q: What is a dictionary in Python?
+A: A dictionary stores data as key-value pairs, like {"name": "Vamsi"}. Looking up a value by its key is very fast on average, which makes dictionaries ideal for structured data and for converting to JSON.
+
+Q: What is a decorator in Python?
+A: A decorator is a function that wraps another function to add extra behavior, such as logging or timing, without changing the original function's code. It is applied with the @ symbol above the function.
+
+Q: What are the four pillars of OOP?
+A: Encapsulation (bundling data and methods and hiding internal details), abstraction (showing only what is necessary), inheritance (a class reusing another class's features), and polymorphism (the same method behaving differently depending on the object).
+
+--- JAVA ---
+
+Q: What is the difference between JDK, JRE, and JVM?
+A: The JVM runs Java bytecode. The JRE contains the JVM plus the libraries needed to run Java programs. The JDK contains the JRE plus development tools like the compiler, so it is what developers install to write and build Java programs.
+
+Q: What is the difference between an abstract class and an interface in Java?
+A: An abstract class can have both implemented and unimplemented methods and fields, and a class can extend only one. An interface defines a contract of methods that a class must implement, and a class can implement many interfaces. Use an abstract class for shared code and an interface for shared capabilities.
+
+--- JAVASCRIPT ---
+
+Q: What is the difference between var, let, and const?
+A: var is function-scoped and can be redeclared. let is block-scoped and can be reassigned. const is block-scoped and cannot be reassigned. Modern code prefers const by default and let when a value must change.
+
+Q: What is the difference between == and === in JavaScript?
+A: == compares values after converting types, so "5" == 5 is true. === compares both value and type with no conversion, so "5" === 5 is false. Using === avoids unexpected bugs.
+
+Q: What are promises and async/await?
+A: A promise represents a value that will be available in the future, used for asynchronous work like API calls. async/await is cleaner syntax built on promises that lets asynchronous code read like normal step-by-step code.
+
+Q: What is a closure?
+A: A closure is a function that remembers the variables from the place where it was created, even after that outer function has finished running. It is used for private data and for callbacks.
+
+--- REACT AND NODE.JS ---
+
+Q: What is the Virtual DOM in React?
+A: It is a lightweight copy of the real DOM kept in memory. When state changes, React compares the new virtual DOM with the previous one and updates only the parts of the real DOM that changed, which makes updates efficient.
+
+Q: What is the difference between props and state in React?
+A: Props are inputs passed from a parent component to a child and are read-only. State is data managed inside a component that can change over time and causes the component to re-render when updated.
+
+Q: What are useState and useEffect?
+A: useState lets a function component store and update state. useEffect lets a component run side effects, such as fetching data or setting up a timer, after it renders, and it can re-run when chosen values change.
+
+Q: What is Node.js?
+A: Node.js is a JavaScript runtime built on Chrome's V8 engine that lets JavaScript run on the server. It uses an event-driven, non-blocking model, which makes it good for handling many requests efficiently, such as in APIs.
+
+--- REST APIs ---
+
+Q: What is a REST API?
+A: A REST API lets a client and a server communicate over HTTP using resources and standard methods: GET to read, POST to create, PUT or PATCH to update, and DELETE to remove. It is stateless, meaning each request carries all the information the server needs, and data is usually exchanged as JSON.
+
+Q: What are common HTTP status codes?
+A: 200 means success, 201 means a resource was created, 400 means a bad request, 401 means unauthorized, 404 means not found, 500 means a server error, and 503 means the service is unavailable or overloaded. Vamsi came across 503 errors while building DigiVam and handled them with retries and a backup model.
+
+--- DATABASES ---
+
+Q: What is the difference between MySQL and MongoDB?
+A: MySQL is a relational (SQL) database that stores data in tables with a fixed schema and uses joins to connect related data. MongoDB is a NoSQL document database that stores flexible JSON-like documents, which suits changing or nested data. Choose MySQL for structured, relational data and MongoDB for flexible, document-style data.
+
+Q: What are a primary key and a foreign key?
+A: A primary key uniquely identifies each row in a table. A foreign key is a column that refers to the primary key of another table, creating a relationship between the two tables.
+
+--- ANDROID, KOTLIN AND FLUTTER ---
+
+Q: What is the difference between StatelessWidget and StatefulWidget in Flutter?
+A: A StatelessWidget does not change after it is built, such as a fixed label or icon. A StatefulWidget has state that can change over time, such as a counter or a form, and rebuilds its UI when that state updates.
+
+Q: What is null safety in Kotlin?
+A: Kotlin separates nullable and non-nullable types, so a normal variable cannot hold null unless it is declared with a question mark, like String?. This catches many null pointer errors at compile time instead of at runtime.
+
+Q: What is the Android Activity lifecycle?
+A: An Activity is a single screen of an app. Its main lifecycle methods are onCreate, onStart, onResume, onPause, onStop, and onDestroy, which let the app set up, show, pause, and clean up the screen as the user moves around.
+
+--- AI AND MACHINE LEARNING ---
+
+Q: What is the difference between supervised and unsupervised learning?
+A: Supervised learning trains on labeled data, where the correct answers are known, such as predicting prices or classifying emails. Unsupervised learning finds patterns in unlabeled data, such as grouping customers into clusters.
+
+Q: What is overfitting and how can it be reduced?
+A: Overfitting happens when a model learns the training data too closely, including its noise, and performs poorly on new data. It can be reduced by using more data, simplifying the model, using regularization, applying cross-validation, or stopping training earlier.
+
+Q: Why do we split data into training and testing sets?
+A: The model learns from the training set, and the test set is data it has never seen, used to check how well it will perform in the real world. This gives an honest measure of its performance.
+
+Q: How is a classification model evaluated?
+A: Common metrics are accuracy (overall correct predictions), precision (how many predicted positives were correct), recall (how many actual positives were found), and the F1 score, which balances precision and recall. A confusion matrix shows these results in detail.
+
+--- LLMs AND DIGIVAM ---
+
+Q: What is an LLM and how does DigiVam use one?
+A: A large language model, or LLM, is an AI model trained on huge amounts of text that can understand and generate language. DigiVam sends Vamsi's profile information together with the visitor's question to Google's Gemini model, along with a system prompt that tells it to answer only from that information.
+
+Q: What is a system prompt?
+A: A system prompt is a set of instructions given to the AI before the conversation that defines its role, tone, and rules. In DigiVam it tells the model to act as Vamsi's assistant, answer only from his information, and say it does not know when the answer is missing.
+
+Q: How does DigiVam avoid making things up?
+A: The system prompt restricts the model to the information in Vamsi's profile file and tells it to say "I don't have that info, please contact Vamsi directly" when the answer is not there. This reduces hallucination, which is when an AI invents facts.
+
+Q: What is RAG, and does DigiVam use it?
+A: RAG, or retrieval-augmented generation, searches a large knowledge base for the most relevant pieces and gives only those to the LLM. DigiVam currently sends Vamsi's whole profile to the model because the data is small. RAG would be the next step if the data grew much larger.
+
+Q: How was DigiVam deployed and how is the API key kept safe?
+A: The code is stored on GitHub and deployed on Streamlit Community Cloud. The API key is not written in the code or uploaded to GitHub. It is stored in the platform's secrets settings, so it stays private.
+
+Q: What technologies and design choices went into DigiVam?
+A: DigiVam uses Python, the Gemini API, and Streamlit for the chat interface, with custom CSS for the dark-blue design. It keeps conversation history so follow-up questions work, and it includes retry logic with a backup model to handle server overload errors.
+
+--- WEB AND DESIGN ---
+
+Q: What is the difference between Flexbox and CSS Grid?
+A: Flexbox arranges items in one direction, either a row or a column, and is great for things like navigation bars and button rows. Grid arranges items in rows and columns at the same time, and is better for full page or card layouts.
+
+Q: How do you make a website responsive?
+A: Use a flexible layout with Flexbox or Grid, relative units like percentages instead of fixed pixels, images with max-width: 100%, and CSS media queries to change the layout for tablets and phones. It is also important to include the viewport meta tag.
+
+Q: What is the difference between UI and UX?
+A: UI, or user interface, is how a product looks: colors, typography, buttons, and layout. UX, or user experience, is how it feels to use: how easy, clear, and efficient the journey is. Good products need both.
+
+Q: What is the difference between Git and GitHub?
+A: Git is a version control tool that tracks changes to code on your computer. GitHub is an online platform that hosts Git repositories so people can store, share, and collaborate on code, and it can also host websites such as Vamsi's portfolio.
