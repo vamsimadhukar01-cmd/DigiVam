@@ -133,7 +133,6 @@ div.stButton > button:hover {
     display: block; margin: 0 auto 16px auto;
     width: 170px; height: 170px; border-radius: 50%; object-fit: cover;
     border: 3px solid rgba(255,255,255,0.85);
-    box-shadow: 0 0 34px rgba(37,99,235,0.5);
 }
 .photo.placeholder {
     display: flex; align-items: center; justify-content: center;
@@ -189,7 +188,7 @@ Be friendly and professional.
 
 {about_me}"""
 
-MODELS = ["gemini-2.5-flash", "gemini-3.8-flash"]
+MODELS = ["gemini-3.5-flash", "gemini-2.5-flash"]
 
 
 # ---------- Ask the AI (with retry if busy) ----------
