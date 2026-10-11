@@ -5,7 +5,7 @@ import streamlit as st
 from google import genai
 
 # ---------- Page setup ----------
-st.set_page_config(page_title="DigiVam | Vamsi's AI", page_icon="🤖", layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(page_title="DigiVam | Vamsi's AI", page_icon="🤖", layout="centered", initial_sidebar_state="auto")
 
 # ---------- Your images (put these files in the same folder as app.py) ----------
 ROBOT_IMG = "robo1.jpg"          # used in the header circle and the chat bot avatar
@@ -147,6 +147,26 @@ div.stButton > button:hover {
     background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
 }
 .side a.btn:hover { border-color: #60a5fa; background: rgba(37,99,235,0.18); }
+@media (max-width: 768px) {
+    [data-testid="stSidebar"] {
+        background: #0b0b0f !important;   /* solid so chat doesn't show through */
+    }
+    .photo { width: 120px; height: 120px; }  /* optional: smaller photo on phones */
+}
+.mobile-link { display: none; }
+
+@media (max-width: 768px) {
+    [data-testid="stSidebar"],
+    [data-testid="stSidebarCollapsedControl"],
+    [data-testid="collapsedControl"],
+    [data-testid="stExpandSidebarButton"] { display: none !important; }
+
+    .mobile-link {
+        display: inline-block; margin-top: 8px; padding: 5px 12px;
+        font-size: 12px; color: #fff; text-decoration: none;
+        border: 1px solid rgba(255,255,255,0.25); border-radius: 999px;
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -249,7 +269,7 @@ if question:
         st.write(question)
 
     with st.chat_message("assistant", avatar=BOT_AVATAR):
-        with st.spinner("Thinking..."):
+        with st.spinner("Computing..."):
             answer = ask_ai(st.session_state.messages)
         st.write(answer)
     st.session_state.messages.append({"role": "assistant", "content": answer})
